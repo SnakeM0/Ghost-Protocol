@@ -390,11 +390,6 @@ header {
     bottom: 10px;
     right: 10px;
 }
-#donatelink {
-position: absolute;
-    bottom: 10px;
-    left: 10px;
-}
 #homepagelinks p {
     text-decoration: underline;
     margin: 0;
