@@ -1,6 +1,5 @@
 # Abyss
-
-You may edit the .env file and make MAXCPUS= however many cpu cores you want it to use, for free hosts such as replit or railway, or glitch, type 1.
+Set your port in .env.
 
 ## Running
 
