@@ -390,12 +390,15 @@ header {
     bottom: 10px;
     right: 10px;
 }
-
+#donatelink div {
+justify-content: left;
+}
 #homepagelinks p {
     text-decoration: underline;
     margin: 0;
     font-size: 14.5px;
 }
+
 
 #homepagelinks p:hover {
     cursor: pointer;
