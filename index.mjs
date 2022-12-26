@@ -50,6 +50,6 @@ httpServer.on('listening', () => {
 });
 
 httpServer.listen({
-	port: 8080,
+	port: process.ENV.PORT,
 });
 
