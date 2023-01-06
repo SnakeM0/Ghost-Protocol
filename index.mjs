@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import serveStatic from 'serve-static';
 import * as dotenv from 'dotenv'
 dotenv.config()
+
 const httpServer = createServer();
 
 
@@ -50,6 +51,6 @@ httpServer.on('listening', () => {
 });
 
 httpServer.listen({
-	port: process.ENV.PORT,
+	port: process.env.PORT,
 });
 
