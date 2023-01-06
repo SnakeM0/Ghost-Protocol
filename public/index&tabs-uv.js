@@ -67,7 +67,7 @@ function isUrl(val = "") {
 }
 
 // TABS
-
+//
 var nextNumber = 1
 var zIndex = 10
 let tabsection = document.getElementsByClassName("tabsection")[0]
