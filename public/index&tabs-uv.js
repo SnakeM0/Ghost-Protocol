@@ -75,16 +75,10 @@ var tabOrder = new Array();
 var goOrNot = 1
 
 createTabAndIframe();
-createTabAndIframe();
-go("https://hub.alienhub.xyz/show?utm_medium=abyss")
-setTimeout(() => {
-  document.querySelector("#urlbartop input").value = "This is an advertisement, press the X on this tab to close it."
-}, 500)
 
 
-  
 
-//go("https://hub.alienhub.xyz/show?utm_medium=abyss")
+ 
 
 function openTab(tabNumber) {
   var tab = document.querySelector("#" + tabNumber.replace("iframe", ""))
