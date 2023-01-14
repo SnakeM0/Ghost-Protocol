@@ -5,7 +5,9 @@ let urlbarhomepage = document.querySelector('#urlbarhomepage input');
 let urlbartop = document.querySelector('#searchbar');
 
 let userKey = new URLSearchParams(window.location.search).get("userKey")
-
+if(userKey === null){
+userKey = "Guest"
+}
 form.forEach(item => {
   item.addEventListener("submit", async (event) => {
     event.preventDefault();
